@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "What IP address do you want to use"
+read IP
+sudo mount -t nfs $IP:/home /tmp/mount -nolock
+
