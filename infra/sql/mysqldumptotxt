@@ -1,0 +1,1 @@
+mysql -e "select username,created,last_login from users" -u mail -pnHGBVgy87hKypJuv roundcubemail > webmail-users
