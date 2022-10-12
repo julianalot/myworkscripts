@@ -1,1 +1,0 @@
-find . -name '*log' -mtime +30 -print0 | tar -czvf backup.tgz --remove-files --null -T -
