@@ -1,7 +1,1 @@
-.idea
 .DS_Store
-*.egg-info
-.terraform
-.terraform.*
-terraform.tfstate
-
