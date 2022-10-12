@@ -1,3 +1,1 @@
-# data-engineering-pipelines-template
-
-Template for defining a BigQuery pipeline. See https://jira.takealot.com/wiki/x/JhpoBw
+A place to share my bash scripts for PR
