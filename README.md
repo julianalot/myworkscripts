@@ -1,1 +1,1 @@
-A place to share my bash scripts for PR
+A place to share my scripts for PR
