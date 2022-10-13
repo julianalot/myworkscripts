@@ -1,11 +1,14 @@
 #!/bin/bash
 
+#################################################################################
 ### A script to check the version of Ubuntu being run install, run and enable ###
 ### the appropriate version of cinc					      ###							###
-###									      ###	
+###                                                                           ### 
+###	THE FILE MUST BE NAMED cinc-install.sh in order to work fully         ###
+###                                                                           ###   
 ### Created by Julian Bailey						      ###	
 ### On 12th October 2022						      ###	
-### Version 0.1.0							      ###	
+### Version 0.1.1							      ###	
 #################################################################################
 
 VERSION=`cat /etc/issue | cut -b 8-9`
