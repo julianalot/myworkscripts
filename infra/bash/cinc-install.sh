@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -eou pipefail
 
 #################################################################################
 ### A script to check the version of Ubuntu being run install, run and enable ###
@@ -11,7 +13,7 @@
 ### Version 0.1.1							      ###	
 #################################################################################
 
-VERSION=`cat /etc/issue | cut -b 8-9`
+VERSION=$(cat /etc/issue | cut -b 8-9)
 
 VERSION_STD="https://storage.googleapis.com/tal_eu_devops_public/cinc/cinc_17.10.0-1_amd64_ubuntu20.04.deb"
 INSTALL_STD="cinc_17.10.0-1_amd64_ubuntu20.04.deb"
