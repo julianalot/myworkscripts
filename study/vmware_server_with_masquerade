@@ -1,0 +1,19 @@
+Setup minimal Ubuntu server
+Add iproute2, net-tools, traceroute, ufw
+set up NAT+ Masquerade
+	/etc/default/ufw chanet.ipv4.ip_forward=1nge the DEFAULT_FORWARD_POLICY to “ACCEPT”:
+	Then edit /etc/ufw/sysctl.conf and uncomment:
+		net.ipv4.ip_forward=1
+		net.ipv6.conf.default.forwarding=1
+	Now we will add rules to the /etc/ufw/before.rules file.
+		# nat Table rules
+		*nat
+		:POSTROUTING ACCEPT [0:0]
+
+		# Forward traffic from eth1 through eth0.
+		-A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
+
+		# don't delete the 'COMMIT' line or these nat table rules won't be processed
+		COMMIT
+	sudo ufw disable && sudo ufw enable 
+	sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/16 -o ppp0 -j MASQUERADE
