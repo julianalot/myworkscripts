@@ -1,8 +1,8 @@
-system 'clear'
+months = ["January", "February", "March", "April", "May", "June", "July"]
+puts months[5]
 
-names = ['Julian','Kris','Zoe','Josua','Murphy']
-#puts names
-#puts names[0]
+months.push("September")
+puts months
 
-#puts names.length
-puts names[names.length - 1]
+months.insert(2, "October")
+puts months
