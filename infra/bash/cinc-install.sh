@@ -20,14 +20,16 @@ then
         DEB_FILE='cinc_15.17.4-1_amd64.deb'
 elif [[ $VERSION -gt 16 ]]
 then
-        DEB_FILE='cinc_17.10.0-1_amd64_ubuntu20.04.deb'
+        DEB_FILE='cinc_18.0.185-1_amd64.deb'
 else
         echo "Can't determine Ubuntu release from /etc/issue"
         exit 0
 fi
  
 # Overridable via pre-existing environment variable
-URL="${URL:-https://storage.googleapis.com/tal_eu_devops_public/cinc}"
+#URL="${URL:-http://cpt-hq-appstore.hq.takealot.com/data/cinc/ubuntu/client}"
+URL="${URL:-http://downloads.cinc.sh/files/stable/cinc/17.10.0/ubuntu/18.04}"
+
  
 ### Depending ubuntu version will decide whether to install version-pinned cinc ###
 [[ $(dpkg -l cinc) ]] || {

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../tal_configuration_management"
+		},
+		{
+			"path": "../../../../tal_infrastructure"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+https://docs.sensu.io/sensu-go/latest/operations/monitor-sensu/log-sensu-systemd/
+
+/etc/systemd/journald.conf => ForwardToSyslog=yes
+
+Backend 
+/etc/rsyslog.d/40-sensu-backend.conf => 
+	if $programname == 'sensu-backend' then {
+        /var/log/sensu/sensu-backend.log
+        & stop
+}
+
+Agent
+/etc/rsyslog.d/40-sensu-agent.conf
+if $programname == 'sensu-agent' then {
+        /var/log/sensu/sensu-agent.log
+        & stop
+}
+
+chown -R syslog:adm /var/log/sensu
+
+systemctl restart systemd-journald
+
+systemctl restart rsyslog
+
+Logs
+Agent
+
+/etc/logrotate.d/sensu-agent.conf
+
+/var/log/sensu/sensu-agent.log {
+    daily
+    rotate 7
+    size 100M
+    compress
+    delaycompress
+    postrotate
+      /bin/systemctl restart rsyslog
+    endscript
+}
+
+Backend
+/etc/logrotate.d/sensu-backend.conf
+
+/var/log/sensu/sensu-backend.log {
+    daily
+    rotate 7
+    size 100M
+    compress
+    delaycompress
+    postrotate
+      /bin/systemctl restart rsyslog
+    endscript
+}
+
+logrotate -d /etc/logrotate.d/sensu.conf

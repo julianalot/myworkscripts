@@ -2,7 +2,7 @@
 
 import hashlib
 
-hash1 = input(Enter 1st Hash: ")
+hash1 = input("Enter 1st Hash: ")
 nonce = input("Enter the nonce: ")
 nonceCount = input("Enter the Nonce Count: ")
 clientNonce = input("Enter the Client-Nonce: ")

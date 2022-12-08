@@ -1,0 +1,54 @@
+Node Name:   C07CD1AF538A
+Environment: production
+FQDN:        C07CD1AF538A
+IP:          10.0.42.173
+Run List:    role[CS], role[CSRemote]
+Roles:       CS, CSRemote
+Recipes:     chef-client, chef-client::default, cs_base, cs_base::default, cs_base::cached-login, cs_base::vpn, cs_base::cs_theme, cs_base::disable-updates, cs_base::lansweeper, cs_base::cs-info, cs_base::cs-metrics, tal_security::ssh_banner, chef-client::service, chef-client::systemd_service, cs_base::users
+Platform:    ubuntu 18.04
+Tags:        
+Node Name:   D481D7881CC8.localhost
+Environment: production
+FQDN:        D481D7881CC8.localhost
+IP:          10.0.42.194
+Run List:    role[CS], role[CSRemote], recipe[zinia_productivity]
+Roles:       CS, CSRemote
+Recipes:     chef-client, chef-client::default, cs_base, cs_base::default, cs_base::cached-login, cs_base::vpn, cs_base::cs_theme, cs_base::disable-updates, cs_base::lansweeper, cs_base::cs-info, cs_base::cs-metrics, zinia_productivity, zinia_productivity::default, chef-client::service, chef-client::systemd_service, cs_base::users
+Platform:    ubuntu 18.04
+Tags:        
+Node Name:   D4BED9A5D08D
+Environment: production
+FQDN:        D4BED9A5D08D
+IP:          10.0.43.11
+Run List:    role[CS], role[CSRemote]
+Roles:       CS, CSRemote
+Recipes:     chef-client, chef-client::default, cs_base, cs_base::default, cs_base::cached-login, cs_base::vpn, cs_base::cs_theme, cs_base::disable-updates, cs_base::lansweeper, cs_base::cs-info, cs_base::cs-metrics, tal_security::ssh_banner, chef-client::service, chef-client::systemd_service, cs_base::users
+Platform:    ubuntu 18.04
+Tags:        
+Node Name:   DCFE074649C2
+Environment: production
+FQDN:        DCFE074649C2
+IP:          10.0.43.87
+Run List:    role[CS], role[CSRemote]
+Roles:       CS, CSRemote
+Recipes:     chef-client, chef-client::default, cs_base, cs_base::default, cs_base::cached-login, cs_base::vpn, cs_base::cs_theme, cs_base::disable-updates, cs_base::lansweeper, cs_base::cs-info, cs_base::cs-metrics, tal_security::ssh_banner, chef-client::service, chef-client::systemd_service, cs_base::users
+Platform:    ubuntu 18.04
+Tags:        
+Node Name:   ECF4BB149A74
+Environment: production
+FQDN:        ECF4BB149A74
+IP:          10.0.43.93
+Run List:    role[CS], role[CSRemote]
+Roles:       CS, CSRemote
+Recipes:     chef-client, chef-client::default, cs_base, cs_base::default, cs_base::cached-login, cs_base::vpn, cs_base::cs_theme, cs_base::disable-updates, cs_base::lansweeper, cs_base::cs-info, cs_base::cs-metrics, tal_security::ssh_banner, chef-client::service, chef-client::systemd_service, cs_base::users
+Platform:    ubuntu 18.04
+Tags:        
+Node Name:   F8CAB863A208
+Environment: production
+FQDN:        F8CAB863A208
+IP:          10.0.42.191
+Run List:    
+Roles:       
+Recipes:     
+Platform:    ubuntu 18.04
+Tags:        
