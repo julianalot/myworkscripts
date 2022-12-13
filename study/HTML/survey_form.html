@@ -13,14 +13,26 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <label id="name-label">Name</label><input id="name" type="text" />
-      <placeholder>Please enter you name</placeholder>
-      <label id="email-label">Email</label
-      ><input name="email" id="email" type="email" />
-      <placeholder>Please enter your email</placeholder>
-      <label id="number-label">Number</label
-      ><input name="number" id="number" type="number" min="13" max="120" />
-      <placeholder>Please enter a number between 13 and 120</placeholder>
+      <label for="adverts">How did you hear about us? </label><br>
+      <input type="radio" id="html" name="fav_language" value="select"">
+      <label for="adverts">Social Media</label><br>
+      <input type="radio" id="css" name="fav_language" value="select">
+      <label for="css">Word of Mouth</label><br><br>
+      <label for="correspondence">Do you want to receive our emails? </label><br>
+      <input type="checkbox" id="correspondence" name="yes" value="select">
+      <label for="corespondence">Yes</label>
+      <input type="checkbox" id="correspondence" name="no" value="select">
+      <label for="corespondence">No</label><br><br>
+      <label for="name" id="name-label">Enter your Name: </label>
+      <select name="name" id="dropdown">
+        <option value="First Name">First Name</option>
+        <option value="Last Name">Last Name</option>
+      <input type="text" id="name" name="name" required placeholder="First Last"><br>
+      <label for="Email" id="email-label">Please enter your email address: </label>
+      <input type="email" id="email" name="email" required placeholder="a@bc.com" ><br>
+      <label for="number" id="number-label">Please enter a number between 13 and 120: </label>
+      <input type="number" id="number" name="number" required min="13" max="120" placeholder="13 to 120"><br>
+    <textarea name="" id="" cols="30" rows="10"></textarea><button id="submit" type="submit"></button>
     </form>
   </body>
 </html>

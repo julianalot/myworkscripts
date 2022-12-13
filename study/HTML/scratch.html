@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey-Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <label for="name">Please Enter your Name: </label>
+      <select name="name" id="dropdown">
+      <input type="text" id="name-label" name="name" required placeholder="First Last"><br>
+      <label for="Email">Please enter your email address: </label>
+      <input type="email" id="email-label" name="email" required placeholder="a@bc.com" ><br>
+      <label for="number">Please enter a number between 13 and 120: </label>
+      <input type="number" id="number-label" name="number" required min="13" max="120" placeholder="13 to 120"><br>
+    </form>
+  </body>
+</html>
