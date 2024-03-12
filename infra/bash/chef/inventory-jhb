@@ -1,0 +1,28 @@
+jhb-dc-checkmk-jwh.takealot.com ansible_host=10.3.2.20
+jhb-dc-db01.hq.takealot.com ansible_host=10.3.2.25
+jhb-dc-db02.jwh.takealot.com
+jhb-dc-dhcp01.jwh.takealot.com
+jhb-dc-dhcp03.jwh.takealot.com
+jhb-dc-fog01.jwh.takealot.com
+jhb-dc-logstash01.jwh.takealot.com
+jhb-dc-ns01.jwh.takealot.com
+jhb-dc-ns03.jwh.takealot.com
+jhb-dc-ntp01.jwh.takealot.com
+jhb-dc-smtp02.jwh.takealot.com
+jhb-dc-zabbix-proxy.jwh.takealot.com
+jhb-dc1-checkmk01.hq.takealot.com
+jhb-dc1-scanprox01.hq.takealot.com
+jhb-dc1-scanprox02.hq.takealot.com
+jhb-dc1-veeam-proxy01.hq.takealot.com
+jhb-dc1-veeam-proxy02.hq.takealot.com
+mattermost-upgrade ansible_host=10.0.1.142
+
+
+
+
+
+
+
+
+
+

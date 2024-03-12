@@ -1,0 +1,191 @@
+ webmail.hq.takealot.com 
+ k122-etcd-02.stagealot.com
+ kafkab01.stagealot.com
+ hq-postgresql-13.stagealot.com
+ hq-mysql-57-services-10-nightly.stagealot.com
+ office-ingress-dmz-01.stagealot.com
+ platform-k8s-controller.stagealot.com
+ jenkins-agent-05.stagealot.com
+ hq-mysql-57-services-07-nightly.stagealot.com
+ hq-mysql-57-wishlist-weekly.stagealot.com
+ hq-fixtures-57-weekly.stagealot.com
+ k122-node-02.stagealot.com
+ jenkins-agent-04.stagealot.com
+ vault-02.stagealot.com
+ k8s-node-04.stagealot.com
+ lighthouse-01.stagealot.com
+ vault-01.stagealot.com
+ k8s-node-13.stagealot.com
+ k121-control-02.stagealot.com
+ hq-fixtures-8-nightly.stagealot.com
+ hq-fixtures-57-nightly.stagealot.com
+ k8s-node-18.stagealot.com
+ hq-mysql-chsbe-shared-weekly.stagealot.com
+ k121-control-03.stagealot.com
+ k121-control-01.stagealot.com
+jhb-dc-ctrack01.jwh.takealot.com
+confluence.hq.takealot.com
+cpt-hq-fin05.hq.takealot.com
+cpt-dc-ctrack01.cwh.takealot.com
+jhb-dc-scan01.jwh.takealot.com
+jhb-dc-scan02.jwh.takealot.com
+cpt-hq-term01.hq.takealot.com
+payment-proxy.hq.takealot.com
+oracle-proxy.hq.takealot.com
+cpt-hq-qs02.hq.takealot.com
+cpt-hq-qv02.hq.takealot.com
+cpt-hq-qs01.hq.takealot.com
+cpt-sb-qs01.ad.superbalist.com
+jhb-dc-scan04.jwh.takealot.com
+cpt-dc-scan01.cwh.takealot.com
+cpt-sb-qvdev01.hq.takealot.com
+cpt-sb-qvprod01.ad.superbalist.com
+cpt-dc-scan04.hq.takealot.com
+cpt-dc-scan03.hq.takealot.com
+cpt-dc-scan01.hq.takealot.com
+security-gvm-01.stagealot.com
+cpt-dc-scan02.hq.takealot.com
+cpt-hq-lansweep01.hq.takealot.com
+jhb-dc1-scanprox02.jwh.takealot.com 
+cpt-hq-ofrep01-new.hq.takealot.com
+cpt-hq-zabbix06-poc.hq.takealot.com 
+hq-mysql-57-services-14-rev1.hq.takealot.com 
+hq-mysql-57-services-12-rev1.hq.takealot.com 
+q-take2-rev1.hq.takealot.com 
+cpt-hq-bio02.hq.takealot.com
+cpt-hq-ad02.hq.takealot.com
+cpt-hq-ad03.hq.takealot.com
+jhb-dc-fog01.hq.takealot.com 
+cpt-hq-map01.hq.takealot.com 
+cpt-dc-zabbix-proxy.cwh.takealot.com 
+k8s-node-25.stagealot.com 
+hq-postgresql-13-rev1.stagealot.com 
+hq-mysql-57-services-12-weekly.stagealot.com 
+cpt-dc-zabbix01.cwh.takealot.com 
+k8s-node-23.stagealot.com 
+k8s-node-24.stagealot.com 
+selenium01-data-dump.stagealot.com 
+cpt-hq-fin03.hq.takealot.com
+cpt-sb-qv02-rev2.hq.takealot.com
+cpt-hq-fs00.hq.takealot.com
+cpt-hq-term03.hq.takealot.com
+cpt-hq-fin-dev.hq.takealot.com
+cpt-hq-fin-paw.hq.takealot.com
+cpt-hq-qvapp01.hq.takealot.com
+cpt-hq-term02.hq.takealot.com
+cpt-hq-fin-tm1.hq.takealot.com
+cpt-hq-tdt-bi01.hq.takealot.com
+hq-postgres-13-services.hq.takealot.com 
+hq-mysql-57-services-07-rev1.hq.takealot.com 
+cpt-hq-pearl02.hq.takealot.com 
+cpt-hq-kmime02.hq.takealot.com 
+cpt-hq-repo01.hq.takealot.com
+jhb-dc-print01.jwh.takealot.com
+cpt-sb-ad03.ad.superbalist.com
+cpt-mrd-fin01.stagealot.com
+cpt-sb-ad00.ad.superbalist.com
+cpt-hq-qvdb02.hq.takealot.com
+jhb-dc-scan10.jwh.takealot.com 
+cpt-hq-smtp03.hq.takealot.com 
+jhb-dc-checkmk.jwh.takealot.com 
+jhb-dc-zabbix01.jwh.takealot.com 
+cpt-hq-iam01.takealot.com 
+cpt-hq-qvproc01.hq.takealot.com
+smtp.hq.takealot.com 
+cpt-hq-qvproc02.hq.takealot.com
+cpt-sb-mbs01.hq.takealot.com
+cpt-hq-db01.hq.takealot.com
+cpt-hq-ns02.hq.takealot.com
+cpt-sb-qv02.hq.takealot.com
+atlassiandb.hq.takealot.com
+cpt-hq-dhcp01.hq.takealot.com
+cpt-hq-confluence01.hq.takealot.com
+cpt-hq-knime01.hq.takealot.com
+cpt-hq-storage.hq.takealot.com
+cpt-hq-knime02.hq.takealot.com 
+cpt-hq-mrdproc02.hq.takealot.com
+smtp.stagealot.com 
+cpt-hq-iam01.hq.takealot.com 
+cpt-hq-smtp02.hq.takealot.com 
+cpt-hq-fog01.hq.takealot.com 
+cpt-hq-psql-payflex.hq.takealot.com 
+hq-mysql-57-services-03.hq.takealot.com
+cpt-hq-es01.hq.takealot.com 
+cpt-hq-oracledb01.hq.takealot.com 
+qvdb02-mrdfood.hq.takealot.com
+cpt-hq-graphite01.hq.takealot.com 
+hq-mysql-8-newsletter-integration.hq.takealot.com 
+hq-mysql-8-supplier-product-management-service.hq.takealot.com 
+cpt-hq-ofrep01.hq.takealot.com
+xoa.hq.takealot.com 
+cpt-hq-es03.hq.takealot.com 
+cpt-hq-appstore.hq.takealot.com
+cpt-dc-dhcp03.cwh.takealot.com 
+cpt-hq-jira01.hq.takealot.com
+jira.hq.takealot.com
+cpt-sb-mbs01-new.hq.takelot.com
+cpt-dc-ns01.cwh.takealot.com 
+k122-etcd-03.stagealot.com 
+k8s-lb-01.stagealot.com 
+cpt-hq-otaudit.stagealot.com 
+cpt-dc-dhcp01.cwh.takealot.com 
+cpt-dc-radius02.cwh.takealot.com 
+cpt-hq-checkmk.hq.takealot.com 
+cpt-dc-ntp01.cwh.takealot.com 
+cpt-hq-ofrep01-rev1.hq.takealot.com 
+jhb-dc-fog01.jwh.takealot.com 
+jhb-dc-dhcp03.jwh.takealot.com 
+jhb-dc-smtp02.jwh.takealot.com 
+cpt-hq-sftp01.hq.takealot.com
+cpt-dc-ns03.cwh.takealot.com 
+cpt-sb-qv02-replacement.hq.takealot.com
+cpt-dc1-scanprox02.cwh.takealot.com 
+hq-take2.hq.takealot.com
+cpt-hq-db02.hq.takealot.com
+cpt-hq-psql01.hq.takealot.com
+hq-mysql-common.hq.takealot.com 
+hq-mysql-57-services-04.hq.takealot.com 
+hq-mysql-57-services-05.hq.takealot.com
+hq-mysql-57-services-10.hq.takealot.com 
+hq-mysql-57-services-12.hq.takealot.com 
+cpt-hq-db02-b55.hq.takealot.com
+cpt-hq-backup02.hq.takealot.com 
+cpt-hq-ns01.hq.takealot.com
+hq-mysql-57-services-07.hq.takealot.com
+cpt-hq-rshiny01.hq.takealot.com
+hq-mysql-chsbe-shared.hq.takealot.com 
+cpt-hq-syslog-poc.hq.takealot.com
+k8s-node-15.stagealot.com 
+cpt-hq-chef02.hq.takealot.com 
+cpt-hq-sensu01.hq.takealot.com 
+jhb-dc-dhcp01.jwh.takealot.com 
+cpt-hq-es02.hq.takealot.com 
+jhb-dc-db02.jwh.takealot.com 
+jhb-dc-db01.jwh.takealot.com 
+cpt-dc-db02.cwh.takealot.com 
+cpt-hq-mattermost01.hq.takealot.com 
+cpt-hq-syslog01.hq.takealot.com 
+cpt-hq-logstash01.hq.takealot.com 
+sage-proxy.hq.takealot.com
+atlassian-proxy.hq.takealot.com
+jira-collector.hq.takealot.com 
+cpt-dc1-scanprox01.cwh.takealot.com 
+cpt-hq-smtp04.hq.takealot.com 
+hq-postgres-13.hq.takealot.com 
+cpt-dc-cmk02.cwh.takealot.com 
+cpt-hq-ntp01.hq.takealot.com 
+jira-stage.stagealot.com
+cpt-hq-cms01.hq.takealot.com 
+cpt-hq-kibana03.hq.takealot.com 
+cpt-hq-db03.hq.takealot.com 
+graphite-import.hq.takealot.com 
+cpt-hq-dhcp02.hq.takealot.com
+cpt-hq-mrdproc01.hq.takealot.com 
+jhb-dc-ns01.jwh.takealot.com 
+jhb-dc-logstash01.jwh.takealot.com 
+staging-smtp.hq.takealot.com 
+cpt-hq-grafana02.hq.takealot.com 
+jhb-dc-ntp01.jwh.takealot.com 
+cpt-hq-packetbeat01.hq.takealot.com 
+jhb-dc-ns03.jwh.takealot.com 
+hq-mysql-57-services-14.hq.takealot.com 

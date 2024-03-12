@@ -1,0 +1,14 @@
+ cpt-hq-ofrep01-new.hq.takealot.com
+ cpt-hq-confluence01.hq.takealot.com
+ hq-mysql-57-services-03.hq.takealot.com
+ cpt-hq-jira01.hq.takealot.com
+ confluence.hq.takealot.com
+ atlassiandb.hq.takealot.com
+ cpt-hq-mrdproc02.hq.takealot.com
+ cpt-hq-ofrep01.hq.takealot.com
+ jira.hq.takealot.com
+ hq-mysql-57-services-05.hq.takealot.com
+ hq-mysql-57-services-07.hq.takealot.com
+ qvdb02-mrdfood.hq.takealot.com
+ atlassian-proxy.hq.takealot.com
+ cpt-hq-sftp01.hq.takealot.com

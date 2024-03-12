@@ -1,0 +1,7 @@
+#jhb-dc-ad00.hq.takealot.com
+#jhb-dc-print01.hq.takealot.com
+#jhb-dc-scan02.hq.takealot.com
+#jhb-dc1-ignition01.hq.takealot.com
+#JHB-DC1-IR01
+#jhb-dc1-jtacc01.ron.jwh.takealot.com
+#jhb-dc1-veeam-mnt01.hq.takealot.com

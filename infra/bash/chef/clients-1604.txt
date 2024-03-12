@@ -1,0 +1,15 @@
+ cpt-hq-qvproc02.hq.takealot.com
+ cpt-sb-qv02.hq.takealot.com
+ cpt-hq-knime01.hq.takealot.com
+ sage-proxy.hq.takealot.com
+ oracle-proxy.hq.takealot.com
+ webmail.hq.takealot.com
+ cpt-sb-mbs01.hq.takealot.com
+ cpt-hq-dhcp01.hq.takealot.com
+ cpt-hq-rshiny01.hq.takealot.com
+ cpt-hq-db01.hq.takealot.com
+ cpt-hq-dhcp02.hq.takealot.com
+ cpt-hq-qvproc01.hq.takealot.com
+ cpt-hq-ns02.hq.takealot.com
+ cpt-hq-qvdb02.hq.takealot.com
+ hq-take2.hq.takealot.com
