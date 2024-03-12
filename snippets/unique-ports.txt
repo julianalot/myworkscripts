@@ -1,0 +1,1 @@
+netstat -tuln | grep LISTEN | sed -r 's/.*:([0-9]+).*/\1/' | sort -n | uniq
