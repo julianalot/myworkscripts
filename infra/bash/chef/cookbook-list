@@ -1,0 +1,214 @@
+cpt-hq-ofrep01-new.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-iam01.takealot.com:
+  run_list: role[HQ]
+cpt-hq-qvproc02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-sb-qv02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-knime01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-knime02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-iam01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-fog01.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-03.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-appstore.hq.takealot.com:
+  run_list: role[HQ]
+cpt-dc-dhcp03.cwh.takealot.com:
+  run_list: role[CPT-DC]
+cpt-hq-jira01.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-fog01.jwh.takealot.com:
+  run_list: role[JHB-DC]
+cpt-hq-syslog-poc.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-kibana03.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-logstash01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-es01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-dc-cmk02.cwh.takealot.com:
+  run_list: role[CPT-DC]
+cpt-hq-map01.hq.takealot.com:
+  run_list: role[HQ]
+sage-proxy.hq.takealot.com:
+  run_list: role[HQ]
+cpt-dc-zabbix-proxy.cwh.takealot.com:
+  run_list: role[HQ]
+cpt-hq-scatools.hq.takealot.com:
+  run_list: role[HQ]
+oracle-proxy.hq.takealot.com:
+  run_list: role[HQ]
+payment-proxy.hq.takealot.com:
+  run_list: role[HQ]
+jules-box.hq.takealot.com:
+  run_list: role[HQ]
+webmail.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-ns01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-kmime02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-sb-mbs01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-dhcp01.hq.takealot.com:
+  run_list: role[HQ]
+confluence.hq.takealot.com:
+  run_list: role[HQ]
+atlassiandb.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-storage.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-mrdproc02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-ofrep01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-backup.hq.takealot.com:
+  run_list: role[HQ]
+jira.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-psql01.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-05.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-07.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-mysql-57-wishlist.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-rshiny01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-db01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-dhcp02.hq.takealot.com:
+  run_list: role[HQ]
+infra-chef-upgrade.hq.takealot.com:
+  run_list: role[HQ]
+qvdb02-mrdfood.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-qvproc01.hq.takealot.com:
+  run_list: role[HQ]
+smtp.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-checkmk.jwh.takealot.com:
+  run_list: role[JHB-DC]
+cpt-hq-graphite-upgrade.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-mattermost01.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-zabbix01.jwh.takealot.com:
+  run_list: role[JHB-DC]
+cpt-dc-ns01.cwh.takealot.com:
+  run_list: role[CPT-DC]
+cpt-dc-dhcp01.cwh.takealot.com:
+  run_list: role[CPT-DC]
+jhb-dc-fog01.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-dhcp03.jwh.takealot.com:
+  run_list: role[JHB-DC]
+jhb-dc-smtp02.jwh.takealot.com:
+  run_list: role[JHB-DC]
+cpt-dc-ns03.cwh.takealot.com:
+  run_list: role[CPT-DC]
+cpt-dc1-scanprox02.cwh.takealot.com:
+  run_list: role[CPT-DC]
+cpt-dc-ntp01.cwh.takealot.com:
+  run_list: role[CPT-DC]
+hq-mysql-57-services-04.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-8-newsletter-integration.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-8-supplier-product-management-service.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-chef02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-syslog01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-sensu01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-pearl02.hq.takealot.com:
+  run_list: role[HQ]
+graphite-import.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-10.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-12.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-12-rev1.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-14.hq.takealot.com:
+  run_list: role[HQ]
+hq-postgres-13-services.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-psql-payflex.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-common.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-chsbe-shared.hq.takealot.com:
+  run_list: role[HQ]
+hq-mysql-57-services-07-rev1.hq.takealot.com:
+  run_list: role[HQ]
+hq-take2-dbn.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-mrdproc01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-checkmk.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-smtp03.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-graphite01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-grafana02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-ns02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-db03.hq.takealot.com:
+  run_list: role[HQ]
+cpt-dc-db02.cwh.takealot.com:
+  run_list: role[CPT-DC]
+hq-postgres-13.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-ns01.jwh.takealot.com:
+  run_list: role[JHB-DC]
+cpt-hq-qvdb02.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-logstash01.jwh.takealot.com:
+  run_list: role[JHB-DC]
+cpt-hq-smtp02.hq.takealot.com:
+  run_list: role[HQ]
+cpt-dc1-scanprox01.cwh.takealot.com:
+  run_list: role[CPT-DC]
+staging-smtp.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-smtp04.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-sftp01.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-ntp01.hq.takealot.com:
+  run_list: role[HQ]
+jira-collector.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-db01.jwh.takealot.com:
+  run_list: role[JHB-DC]
+hq-take2.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-ns03.jwh.takealot.com:
+  run_list: role[JHB-DC]
+jhb-dc-db02.jwh.takealot.com:
+  run_list: role[JHB-DC]
+jhb-dc-dhcp01.jwh.takealot.com:
+  run_list: role[JHB-DC]
+xoa.hq.takealot.com:
+  run_list: role[HQ]
+cpt-hq-cms01.hq.takealot.com:
+  run_list: role[HQ]
+atlassian-proxy.hq.takealot.com:
+  run_list: role[HQ]
+teardown.hq.takealot.com:
+  run_list: role[HQ]
+jhb-dc-ntp01.jwh.takealot.com:
+  run_list: role[JHB-DC]

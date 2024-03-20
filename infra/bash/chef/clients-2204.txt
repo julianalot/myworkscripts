@@ -1,11 +1,9 @@
- cpt-hq-appstore.hq.takealot.com
- cpt-hq-syslog-poc.hq.takealot.com
- cpt-hq-scatools.hq.takealot.com
- jules-box.hq.takealot.com
- cpt-hq-ns01.hq.takealot.com
  cpt-hq-storage.hq.takealot.com
  cpt-hq-backup.hq.takealot.com
  cpt-hq-psql01.hq.takealot.com
  cpt-hq-mysql-57-wishlist.hq.takealot.com
  infra-chef-upgrade.hq.takealot.com
  xoa.hq.takealot.com
+ cpt-hq-ns01.hq.takealot.com
+ cpt-hq-syslog.hq.takealot.com
+ cpt-hq-scatools.hq.takealot.com
